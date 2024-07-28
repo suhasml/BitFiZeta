@@ -1,0 +1,26 @@
+:root {
+  --PrimaryColor: hsl(199, 100%, 30%);
+  --SecondaryColor: hsl(187, 85%, 43%);
+  --gradientColor: linear-gradient(to right, var(--SecondaryColor), var(--PrimaryColor));
+  --WhiteColor: hsl(0, 0%, 100%);
+  --BlackColor: hsl(201, 33%, 16%);
+  --textColor: hsl(240, 4%, 36%);
+  --WhiteColorDeam: hsl(0, 0%, 93%);
+  --greytext: rgb(190, 190, 190);
+  --inputColor: rgb(239, 239, 239);
+  --bodyColor: rgb(240, 240, 246);
+  --CardBG: rgb(225, 225, 235);
+}
+
+.loadingScreen {
+  position: relative;
+  align-items: end;
+  justify-content: center;
+  display: flex;
+}
+.loadingScreen .RiveDiv {
+  top: 0;
+  left: 0;
+  height: 120px;
+  width: 120px;
+}/*# sourceMappingURL=loadingscreen.css.map */
